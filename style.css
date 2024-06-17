@@ -83,44 +83,6 @@ h1 {
                  7px 7px 0 #000,
                  7px 7px 0 #000;
 }
-  
-  #msg {
-    color: #b90b65;
-    text-shadow: 1px 1px 0 #6b2121,
-    2px 2px 0 #000,
-    3px 3px 0 #000,
-    4px 4px 0 #e21717,
-    5px 5px 0 #07e53f,
-    6px 6px 0 #f30f0f,
-    7px 7px 0 #000,
-    7px 7px 0 #000;
-    font-weight: bold;
-    font-size: 20vmin;
-  }
-  
-  .msg-container {
-    height: 100vmin;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    gap: 4rem;
-  }
-  
-  .hide {
-    display: none;
-  }
-  background-color: #000000;
-  border: 3px palevioletred solid;
-  text-shadow: 1px 1px 0 #6b2121,
-  2px 2px 0 #000,
-  3px 3px 0 #000,
-  4px 4px 0 #000,
-  5px 5px 0 #c23232,
-  6px 6px 0 #000,
-  7px 7px 0 #000,
-  7px 7px 0 #000;
-}
 .xbutton{
 color: #e70c0c;
 font-size: 8vmin;
@@ -133,41 +95,6 @@ text-shadow: 1px 1px 0 #6b2121,
   7px 7px 0 #000,
   7px 7px 0 #000;
 }
-#reset-btn {
-  font-size: 5vmin;
-  color: #b90b65;
-  font-weight: bold;
-  background-color: #333;
-  padding: 2vmin;
-  border: 3px palevioletred solid;
-  border-radius: 1rem;
-  text-shadow: 1px 1px 0 #6b2121,
-               2px 2px 0 #000,
-               3px 3px 0 #000,
-               4px 4px 0 #000,
-               5px 5px 0 #c23232,
-               6px 6px 0 #000,
-               7px 7px 0 #000,
-               7px 7px 0 #000;
-}
-#new-btn {
-font-size: 5vmin;
-color: #b90b65;
-font-weight: bold;
-background-color: #333;
-padding: 2vmin;
-border: 3px palevioletred solid;
-border-radius: 1rem;
-text-shadow: 1px 1px 0 #6b2121,
-             2px 2px 0 #000,
-             3px 3px 0 #000,
-             4px 4px 0 #000,
-             5px 5px 0 #c23232,
-             6px 6px 0 #000,
-             7px 7px 0 #000,
-             7px 7px 0 #000;
-}
-
 #msg {
   color: #b90b65;
   text-shadow: 1px 1px 0 #6b2121,
