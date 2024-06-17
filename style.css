@@ -35,6 +35,7 @@ h1 {
     gap: 1.5vmin;
 }
 .box {
+    cursor:pointer;
     height: 18vmin;
     width: 18vmin;
     border-radius: 1rem;
@@ -67,6 +68,7 @@ h1 {
     7px 7px 0 #000;
 }
 #reset-btn,#new-btn {
+    cursor:pointer;
     font-size: 7vmin;
     color: #b90b65;
     font-weight: bold;
