@@ -1,0 +1,196 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+    background-color: #000000;
+    text-align: center;
+}
+h1 {
+    font-size: 50px;
+    font-weight: bold;
+    color: #b90b65;
+    text-shadow: 1px 1px 0 #6b2121,
+    2px 2px 0 #000,
+    3px 3px 0 #000,
+    4px 4px 0 #e21717,
+    5px 5px 0 #07e53f,
+    6px 6px 0 #f30f0f,
+    7px 7px 0 #000,
+    7px 7px 0 #000;
+}
+#container {
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#boxes {
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;
+}
+.box {
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 1rem;
+    border: none;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.3);
+    font-size: 9vmin;
+    color: #b90b65;
+    font-weight: bold;
+    background-color: #000000;
+    border: 3px palevioletred solid;
+    text-shadow: 1px 1px 0 #6b2121,
+    2px 2px 0 #000,
+    3px 3px 0 #000,
+    4px 4px 0 #e21717,
+    5px 5px 0 #07e53f,
+    6px 6px 0 #f30f0f,
+    7px 7px 0 #000,
+    7px 7px 0 #000;
+}
+.xbutton{
+  color: #e70c0c;
+  font-size: 9vmin;
+  text-shadow: 1px 1px 0 #6b2121,
+    2px 2px 0 #000,
+    3px 3px 0 #000,
+    4px 4px 0 #e21717,
+    5px 5px 0 #07e53f,
+    6px 6px 0 #f30f0f,
+    7px 7px 0 #000,
+    7px 7px 0 #000;
+}
+#reset-btn,#new-btn {
+    font-size: 7vmin;
+    color: #b90b65;
+    font-weight: bold;
+    background-color: #333;
+    padding: 1.5vmin 2.5vmin;
+    border: 3px palevioletred solid;
+    border-radius: 1rem;
+    text-shadow: 1px 1px 0 #6b2121,
+                 2px 2px 0 #000,
+                 3px 3px 0 #000,
+                 4px 4px 0 #d51515,
+                 5px 5px 0 #07dd3c,
+                 6px 6px 0 #c10c0c,
+                 7px 7px 0 #000,
+                 7px 7px 0 #000;
+}
+  
+  #msg {
+    color: #b90b65;
+    text-shadow: 1px 1px 0 #6b2121,
+    2px 2px 0 #000,
+    3px 3px 0 #000,
+    4px 4px 0 #e21717,
+    5px 5px 0 #07e53f,
+    6px 6px 0 #f30f0f,
+    7px 7px 0 #000,
+    7px 7px 0 #000;
+    font-weight: bold;
+    font-size: 20vmin;
+  }
+  
+  .msg-container {
+    height: 100vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 4rem;
+  }
+  
+  .hide {
+    display: none;
+  }
+  background-color: #000000;
+  border: 3px palevioletred solid;
+  text-shadow: 1px 1px 0 #6b2121,
+  2px 2px 0 #000,
+  3px 3px 0 #000,
+  4px 4px 0 #000,
+  5px 5px 0 #c23232,
+  6px 6px 0 #000,
+  7px 7px 0 #000,
+  7px 7px 0 #000;
+}
+.xbutton{
+color: #e70c0c;
+font-size: 8vmin;
+text-shadow: 1px 1px 0 #6b2121,
+  2px 2px 0 #000,
+  3px 3px 0 #000,
+  4px 4px 0 #000,
+  5px 5px 0 #c23232,
+  6px 6px 0 #000,
+  7px 7px 0 #000,
+  7px 7px 0 #000;
+}
+#reset-btn {
+  font-size: 5vmin;
+  color: #b90b65;
+  font-weight: bold;
+  background-color: #333;
+  padding: 2vmin;
+  border: 3px palevioletred solid;
+  border-radius: 1rem;
+  text-shadow: 1px 1px 0 #6b2121,
+               2px 2px 0 #000,
+               3px 3px 0 #000,
+               4px 4px 0 #000,
+               5px 5px 0 #c23232,
+               6px 6px 0 #000,
+               7px 7px 0 #000,
+               7px 7px 0 #000;
+}
+#new-btn {
+font-size: 5vmin;
+color: #b90b65;
+font-weight: bold;
+background-color: #333;
+padding: 2vmin;
+border: 3px palevioletred solid;
+border-radius: 1rem;
+text-shadow: 1px 1px 0 #6b2121,
+             2px 2px 0 #000,
+             3px 3px 0 #000,
+             4px 4px 0 #000,
+             5px 5px 0 #c23232,
+             6px 6px 0 #000,
+             7px 7px 0 #000,
+             7px 7px 0 #000;
+}
+
+#msg {
+  color: #b90b65;
+  text-shadow: 1px 1px 0 #6b2121,
+  2px 2px 0 #000,
+  3px 3px 0 #000,
+  4px 4px 0 #000,
+  5px 5px 0 #c23232,
+  6px 6px 0 #000,
+  7px 7px 0 #000,
+  7px 7px 0 #000;
+  font-weight: bold;
+  font-size: 9vmin;
+}
+
+.msg-container {
+  height: 100vmin;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 4rem;
+}
+
+.hide {
+  display: none;
+}
